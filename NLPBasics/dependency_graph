@@ -1,0 +1,16 @@
+digraph G{
+edge [dir=forward]
+node [shape=plaintext]
+
+0 [label="0 (None)"]
+0 -> 3 [label="root"]
+1 [label="1 (Deemed)"]
+2 [label="2 (universities)"]
+2 -> 1 [label="compound"]
+3 [label="3 (charge)"]
+3 -> 2 [label="nsubj"]
+3 -> 5 [label="obj"]
+4 [label="4 (huge)"]
+5 [label="5 (fees)"]
+5 -> 4 [label="amod"]
+}
